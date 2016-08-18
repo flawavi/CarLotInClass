@@ -2,7 +2,7 @@
 
 var cardStyle = require("./style")
 
-  eventStuff.activateEvents = function() {
+  var activateEvents = function() {
     var cards = document.querySelectorAll(".carCard")
     console.log(cards)
     cards.forEach(function(card) {
@@ -17,4 +17,5 @@ var cardStyle = require("./style")
     })
   }
 
+module.exports = activateEvents
 
