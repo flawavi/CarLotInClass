@@ -1,6 +1,10 @@
 "use strict"
 
-(function(){
+var carInventory = require("./CarLot")
+var eventStuff = requre("./events")
+
+//now, to call loadInventory, we call carInventory.loadInventory
+
   populatePage = function(inventory) {
     return new Promise(function(resolve, reject){
       //not completely Promisified
@@ -27,7 +31,7 @@
     })
 
     output.innerHTML = results
-    CarLot.activateEvents()
+    eventStuff()
   }
 
   CarLot.loadInventory.then(function(inventoryFromLoadInventoryResolve){
@@ -35,4 +39,4 @@
     console.log("carPromise")
   })
 
-})();
+

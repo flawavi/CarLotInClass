@@ -1,7 +1,8 @@
 "use strict"
 
-var CarLot = (function(carLot){
-  carLot.activateEvents = function() {
+var cardStyle = require("./style")
+
+  eventStuff.activateEvents = function() {
     var cards = document.querySelectorAll(".carCard")
     console.log(cards)
     cards.forEach(function(card) {
@@ -9,13 +10,11 @@ var CarLot = (function(carLot){
       var userInput = document.querySelector("#userInput")
       userInput.value = ""
       userInput.focus()
-      CarLot.resetCards(cards)
-      CarLot.styleCard(card, "color")
-      CarLot.bindText(card, userInput)
+      cardStyle.resetCards(cards)
+      cardStyle.styleCard(card, "color")
+      cardStyle.bindText(card, userInput)
       })
     })
   }
 
-  return carLot
 
-})(CarLot);
