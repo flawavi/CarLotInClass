@@ -1,0 +1,21 @@
+h1 {
+  color: tomato;
+}
+
+.carCard {
+  border: 5px solid;
+}
+
+.color {
+  border: 10px solid;
+  background-color: lightpink;
+}
+
+.carCard:hover {
+  background-color: lightyellow;
+}
+
+.carCard {
+  height: 250px;
+  border-radius: 5%;
+}

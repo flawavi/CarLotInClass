@@ -1,0 +1,59 @@
+{
+  "cars": [
+    {
+      "make": "Nissan",
+      "model": "Rogue",
+      "year": "2006",
+      "price": "8999",
+      "color": "FireBrick",
+      "purchased": false,
+      "description": "Rogue...as in...X-Men?"
+    },
+    {
+      "make": "Mazda",
+      "model": "RX8",
+      "year": "2006",
+      "price": "300",
+      "color": "Orange",
+      "purchased": false,
+      "description": "I prefer the 626. Mostly because that's the only Mazda that I know."
+    },
+    {
+      "make": "Tesla",
+      "model": "ModelX",
+      "year": "2016",
+      "price": "70000",
+      "color": "Aqua",
+      "purchased": false,
+      "description": "This car has an 'insane mode' button."
+    },
+    {
+      "make": "VW",
+      "model": "Jetta",
+      "year": "2016",
+      "price": "20000",
+      "color": "Silver",
+      "purchased": false,
+      "description": "I got this car because someone wrecked my Rabbit."
+    },
+    {
+      "make": "Batman",
+      "model": "Batmobile",
+      "year": "2020",
+      "price": "10000000",
+      "color": "Black",
+      "purchased": false,
+      "description": "For Sunday driving."
+    },
+    {
+      "make": "Ghostbusters",
+      "model": "Ecto1",
+      "year": "1982",
+      "price": "100000",
+      "color": "antiquewhite",
+      "purchased": false,
+      "description": "Don't cross the streams."
+    }
+
+  ]
+}
